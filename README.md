@@ -1,6 +1,6 @@
 # ai-analyst-mini
 
-Check out the demo notebook for a walkthrough on Text to SQL/Python execution using a only a local RTX-4080 and small language models that act as a mini analyst for IMDB!
+Check out the demo notebook for a walkthrough on Text to SQL/Python execution using only a local RTX-4080 and small language models that act as a mini analyst for IMDB!
 
 SLMs Models in the demo:
 - defog/sqlcoder-7b-2 for text to PostgreSQL
@@ -21,5 +21,5 @@ Ways to extend ai-analyst-mini to an AI Analyst Agent:
 - add multi-turn conversation for follow-up questions
 - add a chat UI to render chats nicely
 - decouple Python execution environment
-- include SOTA models via APIs and more complex prompts for more accurate and fast generation
+- include SOTA models via APIs, async, and more complex prompts for more accurate and fast generation
 - add other LLM agents for taking on more analyst functions
